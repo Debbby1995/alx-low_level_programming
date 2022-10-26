@@ -4,7 +4,7 @@
 
 /**
  *  main - Generates random valid passwords for the
- *   program 101-crackme.
+ *         program 101-crackme.
  *
  * Return: Always 0.
  */
@@ -18,7 +18,6 @@ int main(void)
 
 	while (sum < 2772)
 	{
-		password[index] = 33 + rand() % 94;
 		password[index] = 33 + rand() % 94;
 		sum += password[index++];
 	}
